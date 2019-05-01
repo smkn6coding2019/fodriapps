@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".minuman">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/hu">
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/kopi"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Kopi = Rp 5.000,-"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/teh"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Lemon Tea = Rp 4.000,-"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/wedangjahe"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Jus Jambu = Rp 6.000,-"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/pisang"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Es Pisang Ijo = Rp 7.000,-"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/nona"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Es Nona = Rp 7.000,-"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/dawet"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Es Dawet = Rp 5.000,-"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</FrameLayout>
+</ScrollView>

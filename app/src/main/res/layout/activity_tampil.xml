@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hu">
+
+    <TextView
+        android:text="Pesanan Anda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/edtName"
+    android:textSize="20sp"
+    android:text=""
+    android:textColor="#FFFFFF"/>
+
+
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/edtTanggal"
+    android:textSize="15sp"
+    android:text=""
+    android:textColor="#FFFFFF"/>
+
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:id="@+id/edtMeja"
+    android:textSize="15sp"
+    android:text=""
+    android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/edtMakanan"
+        android:textSize="15sp"
+        android:text=""
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/edtMinuman"
+        android:textSize="15sp"
+        android:text=""
+        android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</LinearLayout>

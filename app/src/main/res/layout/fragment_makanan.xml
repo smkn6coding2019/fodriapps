@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".makanan">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/hu">
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/ayamgeprek"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Ayam Geprek = Rp 15.000,-"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/ayampanggang"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Ayam Panggang = Rp 20.000,-"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/ayamkremes"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Ayam Kremes = Rp 15.000,-"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/bakmi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Bakmi = Rp 10.000,-"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/nasigoreng"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Nasi Goreng = Rp 10.000,-"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/sate"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Sate Ayam = Rp 18.000,-"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>
